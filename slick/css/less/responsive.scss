@@ -1,0 +1,475 @@
+@media(max-width: 1450px){
+	.datalabs_section4 .left{
+		margin-left: 0;
+	}
+	.datalabs_section4 .boxes{
+		margin-left: 0;
+	}
+	.home_section2 .logos img{
+		max-width: 90%;
+	}
+	.home_section2{
+		min-height: 240px;
+	}
+	.home_section3 .left{
+		margin-left: 0;
+	}
+	.home_section4 .left{
+		margin-left: 0;
+	    max-width: 514px;
+	}
+	.pricing .boxes .box{
+		padding: 30px 20px;
+	}
+	.pricing .boxes .box ul li{
+		font-size: 16px;
+	}
+	.prospecting h1{
+		padding-left: 0;
+	}
+	.prospecting .left{
+		margin-left: 0;
+	}
+
+	.prospecting .left .whitebox {
+	    max-width: 564px;
+	    min-height: 533px;
+	}
+	.prospecting .left .whitebox .area {
+	    padding-left: 25px;
+	    padding-right: 25px;
+	}
+	.prospecting .left .whitebox h2{
+		font-size: 26px;
+	}
+	.prospecting .left .whitebox h2 span{
+		top: -11px;
+	}
+	.prospecting .left .whitebox h2 svg{
+		top: 3px;
+	}
+	.prospecting .right{
+		max-width: 500px;
+	}
+}
+@media(max-width: 1200px){
+	.prospecting .left .whitebox {
+	    max-width: 100%;
+	    min-height: unset;
+	}
+	.prospecting .right {
+	    max-width: 500px;
+	    position: relative;
+	    margin-top: 30px;
+	    margin: auto;
+	    margin-top: 30px;
+	}
+	.prospecting{
+		padding-top: 70px;
+	}
+	.pricing{
+		padding-bottom: 0;
+	}
+	.pricing .boxes{
+		max-width: 660px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.pricing .boxes .box{
+		margin-bottom: 40px;
+	}
+	.datalabs_section4 .left h1, .pricing h1,.prospecting h1{
+		font-size: 54px;
+		text-align: center;
+		line-height: normal;
+	}
+	.datalabs_section4 .left p{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.datalabs_section4 .btns{
+		text-align: center;
+	}
+	.datalabs_section4 .left{
+		margin: auto;
+	}
+	.datalabs_section4 .boxes{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	.footer p{
+		font-size: 18px;
+	}
+	.home_section6 .purple_box p{
+		font-size: 20px;
+	}
+	.home_section6 .purple_box form button{
+		padding: 17.5px 20px;
+	}
+	.home_section6 .purple_box form input {
+	    max-width: 217px;
+	}
+
+	.home_section5 .white_box h1{
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+	.home_section5 .white_box p{
+		font-size: 17px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.home_section5 .white_box .img_code{
+		max-width: 100%;
+	}
+	.navbar .navbar-nav .nav-link{
+		margin-left: 15px;
+		margin-right: 15px;
+		font-size: 20px;
+	}
+	.navbar .navbar-nav .getstart{
+		line-height: 53px;
+		min-width: 162px;
+	}
+	.home_section3 .left h1{
+		font-size: 47px;
+		line-height: 62px;
+	}
+	.home_section3 .left p{
+		font-size: 18px;
+	}
+	.home_section3 .NextStep{
+		max-width: 450px;
+	}
+	.home_section3 .left {
+	    max-width: 464px;
+	}
+
+	.home_section4 .left h1{
+		font-size: 37px;
+		line-height: 46px;
+	}
+	.home_section4 .left p{
+		font-size: 18px;
+	}
+	.home_section4 .right{
+		padding: 46px;
+		max-width: 472px;
+	}
+	.home_section4 .left{
+	    max-width: 424px;
+	}
+	.datalabs_section4 .boxes .box{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.datalabs_section4 .boxes .box .cont p{
+		margin: auto;
+	}
+}
+
+
+
+@media(max-width: 991px){
+	.prospecting .right{
+		min-height: auto;
+	}
+	.prospecting .right .activesl{
+		position: relative !important;
+	}
+	.prospecting .right .slide{
+		position: absolute;
+	}
+	.home_section6 .purple_box form{
+		text-align: center;
+		padding-top: 40px;
+	}
+	.home_section6 .purple_box{
+		padding: 40px 20px;
+	}
+	.home_section6 .purple_box{
+		text-align: center;
+	}
+	.home_section5 .white_box{
+		text-align: center;
+		h1,p{
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.home_section5 .white_box .img_code{
+		margin-top: 30px;
+	}
+	.home_section5 .white_box{
+		padding: 40px 20px;
+	}
+	.home_section4 .right{
+		left: 0;
+		right: 0;
+		margin: auto;
+		position: relative;
+	}
+	.home_section4 .right p{
+		text-align: center;
+		font-size: 20px;
+		padding-left: 0;
+	}
+	.home_section4 .right p span{
+		position: relative;
+		    display: block;
+		    margin: auto;
+	}
+	.home_section4 .left {
+	    margin: auto;
+	    text-align: center;
+	    margin-bottom: 50px;
+	}
+	.home_section3{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.home_section3 .left{
+		margin: auto;
+		text-align: center;
+	}
+	.pricing h1,.prospecting h1{
+		font-size: 44px;
+	}
+	.home_section3 .left h1{
+		font-size: 44px;
+	}
+	.home_section3 .NextStep{
+		display: none;
+	}
+	.navbar{
+		min-height: unset;
+	}
+	.navbar .navbar-brand{
+		position: relative;
+		left: unset;
+		top: unset;
+		transform: unset;
+	}
+	.navbar .navbar-nav .getstart{
+		position: relative;
+		left: unset;
+		right: unset;
+		top: unset;
+		transform: unset;
+	}
+	.navbar{
+		.navbar-toggler{
+			padding: 0;
+		}
+		.navbar-toggler .hamb_lines{
+			.l1{
+				width: 30px;
+				height: 1px;
+				background: #061027;
+				margin-bottom: 7px;
+				transform: rotate(44deg);
+			}
+			.l2{
+				width: 30px;
+				height: 1px;
+				background: #061027;
+				margin-bottom: 7px;
+				width: 30px;
+				transform: rotate(-44deg);
+				margin-top: -8px;
+			}
+			.l3{
+				width: 30px;
+				height: 1px;
+				background: #061027;
+				transform: rotate(44deg);
+				margin-top: -8px;
+			}
+			div{
+				-webkit-transition: all .25s ease;
+				-moz-transition: all .25s ease;
+				-ms-transition: all .25s ease;
+				-o-transition: all .25s ease;
+				transition: all .25s ease;
+			}
+		}
+		.navbar-toggler.collapsed .hamb_lines{
+			.l1{
+				transform: unset;
+			}
+			.l2{
+				width: 25px;
+				transform: unset;
+				margin-top: 0;
+			}
+			.l3{
+				width: 20px;
+				transform: unset;
+				margin-top: 0;
+			}
+		}
+
+	}
+	.navbar{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.navbar .navbar-nav .nav-link{
+		margin-bottom: 30px;
+	}
+	.navbar .mr-auto{
+		padding-top: 30px;
+	}
+	.navbar .formenu{
+		min-height: 100vh;
+	}
+
+	body {
+	    padding-top: 80px;
+	}
+
+
+	.home_section1 {
+	    padding-top: 55px;
+	    padding-bottom: 55px;
+	    min-height: auto;
+	}
+	.home_section1 h1{
+		font-size: 44px;
+	}
+	.home_section3 .col-12{
+		min-height: auto;
+	}
+}
+
+
+@media(max-width: 772px){
+	.prospecting .left .whitebox h2{
+		padding-left: 50px;
+	}
+	.prospecting .left .whitebox h2 span{
+		width: 40px;
+		padding-top: 3px;
+		line-height: 37px;
+		top: -8px;
+	}
+	.prospecting .left .whitebox .area h2{
+		padding-right: 20px;
+		font-size: 20px;
+	}
+	.prospecting .left .whitebox .area p{
+		padding-left: 50px;
+		font-size: 14px;
+		padding-right: 0;
+	}
+	.prospecting .left .whitebox .area {
+	    padding-left: 5px;
+	    padding-right: 5px;
+	}
+	.datalabs_section4 .left h1 {
+	    font-size: 44px;
+	}
+	.datalabs_section4 .left p{
+		font-size: 19px;
+	}
+	.datalabs_section4{
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.home_section5{
+		padding-bottom: 35px;
+	}
+	.home_section6{
+		padding-bottom: 45px;
+	}
+	.footer p{
+		font-size: 16px;
+	}
+	.home_section4{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.home_section3 .left h1 {
+	    font-size: 39px;
+	    line-height: 45px;
+	}
+	.home_section3 .left .btns a{
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	.home_section3 .left .btns{
+		text-align: center;
+	}
+	.home_section1 h1 {
+	    font-size: 39px;
+	}
+	.home_section1 p{
+		font-size: 18px;
+	}
+	.home_section1 .white_box .box{
+		margin-bottom: 50px;
+	}
+	.home_section1 .white_box .col-md-4:last-child .box{
+		margin-bottom: 0;
+	}
+	.home_section2 .logos {
+	    display: unset;
+	    justify-content: unset;
+	    text-align: center;
+        margin: auto;
+        display: block;
+        margin-top: 40px;
+	}
+	.home_section2{
+		padding-bottom: 15px;
+	}
+	.home_section2 .logos div:first-child{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.home_section2 .logos div{
+		display: inline-block;
+		margin-bottom: 30px;
+		img{
+			max-height: 40px;
+		}
+	}
+	.home_section2 .logos .helper{
+		display: none;
+	}
+}
+
+
+@media(max-width: 500px){
+	.home_section6 .purple_box form button {
+	    padding: 17.5px 30px;
+	    display: block;
+	    margin: auto;
+	    margin-top: 20px;
+	}
+	.home_section6 .purple_box form input {
+	    max-width: 267px;
+	}
+}
+
+
+@media(max-width: 350px){
+	.prospecting .right .slide .wb1 .top img {
+	    position: relative;
+	    left: unset;
+	    top: unset;
+	    border-radius: 50%;
+	    margin: auto;
+	    display: block;
+	}
+	.prospecting .right .slide .wb1 .top{
+		padding-left: 0;
+		width: 100%;
+	}
+	.prospecting .right .slide .wb1 .top p{
+		text-align: center;
+	}
+}

@@ -1,0 +1,782 @@
+@font-face {
+  font-family: GraphikMedium;
+  src: url("../fonts/Graphik-500-Medium.otf"); }
+
+@font-face {
+  font-family: GraphikBold;
+  src: url("../fonts/Graphik-700-Bold.otf"); }
+
+@font-face {
+  font-family: GraphikRegular;
+  src: url("../fonts/Graphik-400-Regular.otf"); }
+
+@font-face {
+  font-family: GraphikSemibold;
+  src: url("../fonts/Graphik-600-Semibold.otf"); }
+
+@media (min-width: 1450px) {
+  .container {
+    max-width: 1363px; } }
+
+button:focus, input:focust, textarea:focus, button:focus {
+  outline: none; }
+
+a:hover {
+  text-decoration: none; }
+
+p, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0; }
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+  outline: none; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden; }
+
+body {
+  padding-top: 108px;
+  background: #F8FAFF; }
+
+.purple_btn {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: GraphikMedium;
+  color: #fff;
+  font-size: 16px;
+  padding: 11px 30px;
+  background: #4B26B4;
+  border-radius: 5px;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
+
+.purple_btn:hover {
+  background: #000033;
+  color: #fff; }
+
+.orange_btn {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: GraphikMedium;
+  color: #fff;
+  font-size: 16px;
+  padding: 11px 30px;
+  background: #FD710B;
+  border-radius: 5px;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
+
+.orange_btn:hover {
+  background: #000033;
+  color: #fff; }
+
+.bpurple_btn {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: GraphikMedium;
+  color: #fff;
+  font-size: 16px;
+  padding: 11px 30px;
+  background: #000033;
+  border-radius: 5px;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
+
+.bpurple_btn:hover {
+  background: #7B88A8;
+  color: #fff; }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  min-height: 110px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #F8FAFF; }
+  .navbar .container {
+    position: relative; }
+  .navbar .formenu {
+    width: 100%;
+    display: inherit;
+    text-align: center; }
+  .navbar .navbar-nav .nav-link {
+    padding: 0;
+    font-family: GraphikMedium;
+    color: #2D3958;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #4B26B4; }
+  .navbar .mr-auto {
+    text-align: center;
+    margin: auto; }
+  .navbar .navbar-nav .getstart {
+    color: #fff;
+    background: #4B26B4;
+    min-width: 180px;
+    margin: 0;
+    line-height: 58px;
+    text-align: center;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px; }
+  .navbar .navbar-nav .getstart:hover {
+    background: #000033;
+    color: #fff; }
+  .navbar .navbar-brand {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.home_section1 {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  background: #F8FAFF;
+  min-height: 785px; }
+  .home_section1 h1 {
+    padding: 0;
+    font-family: GraphikBold;
+    color: #2D3958;
+    font-size: 64px;
+    text-align: center;
+    max-width: 611px;
+    margin: auto; }
+  .home_section1 p {
+    padding: 0;
+    font-family: GraphikMedium;
+    color: #7B88A8;
+    font-size: 20px;
+    max-width: 547px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px; }
+  .home_section1 .btns {
+    text-align: center;
+    margin-top: 25px; }
+  .home_section1 .white_box {
+    max-width: 1161px;
+    margin: auto;
+    padding: 39px 20px;
+    background: #fff;
+    margin-top: 69px;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+    box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2); }
+    .home_section1 .white_box .box {
+      max-width: 250px;
+      margin: auto;
+      text-align: center; }
+      .home_section1 .white_box .box .placeforimg {
+        min-height: 70px; }
+      .home_section1 .white_box .box p {
+        padding: 0;
+        font-family: GraphikSemibold;
+        color: #767D86;
+        font-size: 18px;
+        margin: 0; }
+
+.home_section2 {
+  background: #000033;
+  min-height: 268px;
+  padding-top: 45px;
+  padding-bottom: 45px; }
+  .home_section2 h1 {
+    padding: 0;
+    font-family: GraphikMedium;
+    color: #fff;
+    font-size: 22px;
+    text-align: center; }
+  .home_section2 .logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; }
+    .home_section2 .logos div {
+      position: relative;
+      padding-left: 10px;
+      padding-right: 10px; }
+    .home_section2 .logos div:first-child {
+      padding-left: 0; }
+    .home_section2 .logos .helper {
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle; }
+    .home_section2 .logos img {
+      vertical-align: middle;
+      height: auto;
+      max-width: 100%; }
+
+.home_section3 {
+  background: #F8FAFF;
+  padding-top: 130px;
+  padding-bottom: 130px; }
+  .home_section3 .col-12 {
+    min-height: 450px; }
+  .home_section3 .left {
+    max-width: 594px;
+    margin-left: 85px; }
+    .home_section3 .left h1 {
+      padding: 0;
+      font-family: GraphikMedium;
+      color: #2D3958;
+      font-size: 64px;
+      line-height: 68px;
+      padding-bottom: 32px; }
+    .home_section3 .left p {
+      padding: 0;
+      font-family: GraphikMedium;
+      color: #7B88A8;
+      font-size: 20px;
+      max-width: 547px;
+      margin-bottom: 40px; }
+    .home_section3 .left .btns a {
+      font-size: 24px;
+      margin-right: 35px;
+      margin-bottom: 20px; }
+      .home_section3 .left .btns a span {
+        font-size: 16px; }
+    .home_section3 .left .btns a:hover {
+      background: #7B88A8; }
+  .home_section3 .NextStep {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px; }
+
+.home_section4 {
+  background: #4B26B4;
+  padding-top: 130px;
+  padding-bottom: 130px; }
+  .home_section4 .right {
+    max-width: 522px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.5);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.5);
+    box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.5);
+    padding: 66px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%; }
+    .home_section4 .right p {
+      padding: 0;
+      font-family: GraphikMedium;
+      color: #4B26B4;
+      font-size: 24px;
+      position: relative;
+      padding-left: 70px;
+      line-height: 27px;
+      margin-bottom: 40px; }
+      .home_section4 .right p span {
+        position: absolute;
+        left: 0;
+        top: -8px;
+        width: 55px;
+        line-height: 55px;
+        font-size: 23px;
+        border-radius: 100%;
+        border: 1px solid #4B26B4;
+        text-align: center;
+        font-family: GraphikRegular; }
+    .home_section4 .right p:last-child {
+      margin-bottom: 0; }
+  .home_section4 .left {
+    max-width: 594px;
+    margin-left: 85px; }
+    .home_section4 .left h1 {
+      padding: 0;
+      font-family: GraphikSemibold;
+      color: #fff;
+      font-size: 55px;
+      line-height: 68px;
+      padding-bottom: 32px;
+      position: relative; }
+      .home_section4 .left h1 img {
+        position: absolute;
+        left: -160px;
+        top: -60px; }
+    .home_section4 .left p {
+      padding: 0;
+      font-family: GraphikRegular;
+      color: #fff;
+      font-size: 20px;
+      max-width: 581px;
+      margin-bottom: 40px; }
+    .home_section4 .left .btns a {
+      font-size: 24px;
+      margin-bottom: 20px;
+      -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+      -moz-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+      box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2); }
+
+.home_section5 {
+  padding-top: 65px;
+  padding-bottom: 65px; }
+  .home_section5 .white_box {
+    max-width: 1161px;
+    margin: auto;
+    padding: 80px 50px 80px 70px;
+    background: #fff;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+    box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2); }
+    .home_section5 .white_box h1 {
+      padding: 0;
+      font-family: GraphikBold;
+      color: #2D3958;
+      font-size: 34px;
+      padding-bottom: 20px;
+      max-width: 459px; }
+    .home_section5 .white_box p {
+      padding: 0;
+      font-family: GraphikMedium;
+      color: #2D3958;
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      max-width: 424px; }
+    .home_section5 .white_box .img_code {
+      margin: auto;
+      display: block; }
+
+.home_section6 {
+  padding-top: 30px;
+  padding-bottom: 65px; }
+  .home_section6 .purple_box {
+    max-width: 1161px;
+    margin: auto;
+    padding: 88px 70px;
+    background: #4B26B4;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+    box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2); }
+    .home_section6 .purple_box h1 {
+      padding: 0;
+      font-family: GraphikMedium;
+      color: #fff;
+      font-size: 36px;
+      padding-bottom: 20px; }
+    .home_section6 .purple_box p {
+      padding: 0;
+      font-family: GraphikRegular;
+      color: #fff;
+      font-size: 22px; }
+    .home_section6 .purple_box form {
+      text-align: right;
+      vertical-align: top;
+      padding-top: 16px; }
+      .home_section6 .purple_box form input {
+        max-width: 257px;
+        width: 100%;
+        padding: 18px 20px;
+        border-radius: 5px;
+        background: #FFFFFF;
+        opacity: 0.6;
+        border: 1px solid #768598;
+        font-family: GraphikRegular;
+        color: #182433;
+        font-size: 14px;
+        display: inline-block;
+        vertical-align: middle; }
+      .home_section6 .purple_box form input:focus {
+        outline: none; }
+      .home_section6 .purple_box form button {
+        vertical-align: middle;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        font-family: GraphikRegular;
+        color: #fff;
+        font-size: 16px;
+        padding: 17.5px 33px;
+        border: 0;
+        margin-left: 15px;
+        background: #FD710B;
+        border-radius: 5px;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease; }
+      .home_section6 .purple_box form button:hover {
+        background: #000033;
+        color: #fff; }
+
+.footer p {
+  padding: 0;
+  font-family: GraphikMedium;
+  color: #2D3958;
+  font-size: 20px;
+  padding-bottom: 30px;
+  text-align: center; }
+
+.datalabs_section4 {
+  background: #4B26B4;
+  padding-top: 130px;
+  padding-bottom: 130px; }
+  .datalabs_section4 .left {
+    max-width: 662px;
+    margin-left: 85px; }
+    .datalabs_section4 .left h1 {
+      padding: 0;
+      font-family: GraphikSemibold;
+      color: #fff;
+      font-size: 64px;
+      line-height: 69px;
+      padding-bottom: 32px;
+      position: relative; }
+      .datalabs_section4 .left h1 img {
+        position: absolute;
+        left: -160px;
+        top: -60px; }
+    .datalabs_section4 .left p {
+      padding: 0;
+      font-family: GraphikRegular;
+      color: #fff;
+      font-size: 22px;
+      max-width: 605px;
+      margin-bottom: 40px; }
+    .datalabs_section4 .left .btns a {
+      font-size: 24px;
+      margin-bottom: 20px;
+      -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+      -moz-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+      box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2); }
+  .datalabs_section4 .boxes {
+    text-align: left;
+    margin-left: 85px;
+    margin-top: 50px; }
+    .datalabs_section4 .boxes .box {
+      max-width: 338px;
+      min-height: 192px;
+      background: #fff;
+      width: 100%;
+      position: relative;
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 15px; }
+      .datalabs_section4 .boxes .box .line {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 8px;
+        background: #2D3958; }
+      .datalabs_section4 .boxes .box .l1 {
+        width: 33.33%; }
+      .datalabs_section4 .boxes .box .l2 {
+        width: 50%; }
+      .datalabs_section4 .boxes .box .l3 {
+        width: 100%; }
+      .datalabs_section4 .boxes .box .cont {
+        padding: 35px 25px; }
+        .datalabs_section4 .boxes .box .cont p {
+          width: 39px;
+          line-height: 36px;
+          padding-top: 3px;
+          font-size: 15px;
+          border-radius: 100%;
+          border: 1px solid #4B26B4;
+          background: #2D3958;
+          color: #fff;
+          text-align: center;
+          font-family: GraphikRegular; }
+        .datalabs_section4 .boxes .box .cont h2 {
+          color: #000033;
+          font-size: 22px;
+          margin-top: 10px;
+          font-family: GraphikRegular; }
+
+.prospecting {
+  padding-top: 100px;
+  padding-bottom: 50px; }
+  .prospecting h1 {
+    padding: 0;
+    font-family: GraphikSemibold;
+    color: #2D3958;
+    font-size: 64px;
+    text-align: left;
+    padding-left: 135px;
+    padding-bottom: 45px; }
+  .prospecting .fullcont {
+    position: relative; }
+  .prospecting .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 538px;
+    width: 100%;
+    min-height: 500px; }
+    .prospecting .right img {
+      max-width: 100%; }
+    .prospecting .right .slide {
+      margin: auto;
+      display: block;
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease; }
+      .prospecting .right .slide .wb1 {
+        max-width: 404px;
+        width: 100%;
+        min-height: 493px;
+        background: #fff;
+        -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+        -moz-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+        box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+        margin: auto;
+        padding: 30px;
+        border-radius: 5px; }
+        .prospecting .right .slide .wb1 .top {
+          display: inline-block;
+          position: relative;
+          padding-left: 105px;
+          border-bottom: 1px solid #BEC2CD;
+          min-height: 90px;
+          padding-top: 5px;
+          padding-right: 5px; }
+          .prospecting .right .slide .wb1 .top img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: 50%; }
+          .prospecting .right .slide .wb1 .top p {
+            font-family: GraphikRegular;
+            color: #000000;
+            font-size: 22px;
+            padding-top: 3px; }
+        .prospecting .right .slide .wb1 .about h2 {
+          font-family: GraphikMedium;
+          color: #2D3958;
+          font-size: 18px;
+          margin-top: 25px;
+          padding-left: 135px;
+          position: relative; }
+          .prospecting .right .slide .wb1 .about h2 span {
+            font-family: GraphikRegular;
+            color: #7B88A8;
+            text-transform: uppercase;
+            max-width: 135px;
+            left: 0;
+            position: absolute; }
+          .prospecting .right .slide .wb1 .about h2 a {
+            margin-right: 10px; }
+      .prospecting .right .slide .wb2 {
+        max-width: 404px;
+        width: 100%;
+        min-height: 355px;
+        background: #fff;
+        -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+        -moz-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+        box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+        margin: auto;
+        padding: 30px;
+        border-radius: 5px; }
+        .prospecting .right .slide .wb2 .top {
+          display: inline-block;
+          position: relative;
+          border-bottom: 1px solid #BEC2CD;
+          min-width: 247px;
+          padding-bottom: 18px; }
+          .prospecting .right .slide .wb2 .top p {
+            font-family: GraphikRegular;
+            color: #000000;
+            font-size: 22px;
+            padding-top: 3px; }
+          .prospecting .right .slide .wb2 .top h2 {
+            font-family: GraphikMedium;
+            color: #2D3958;
+            font-size: 18px;
+            margin-top: 20px;
+            padding-left: 135px;
+            position: relative; }
+            .prospecting .right .slide .wb2 .top h2 span {
+              font-family: GraphikRegular;
+              color: #7B88A8;
+              text-transform: uppercase;
+              max-width: 135px;
+              left: 0;
+              position: absolute; }
+            .prospecting .right .slide .wb2 .top h2 a {
+              margin-right: 10px; }
+        .prospecting .right .slide .wb2 .about h2 {
+          font-family: GraphikMedium;
+          color: #2D3958;
+          font-size: 18px;
+          margin-top: 20px;
+          padding-left: 135px;
+          position: relative; }
+          .prospecting .right .slide .wb2 .about h2 span {
+            font-family: GraphikRegular;
+            color: #7B88A8;
+            text-transform: uppercase;
+            max-width: 135px;
+            left: 0;
+            position: absolute; }
+          .prospecting .right .slide .wb2 .about h2 a {
+            margin-right: 10px; }
+    .prospecting .right .activesl {
+      visibility: visible;
+      opacity: 1; }
+  .prospecting .left {
+    margin-left: 85px; }
+    .prospecting .left .whitebox {
+      max-width: 674px;
+      width: 100%;
+      min-height: 572px;
+      background: #fff;
+      -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+      -moz-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+      box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+      padding: 10px 20px 10px 20px;
+      border-radius: 5px; }
+      .prospecting .left .whitebox .area {
+        padding-left: 45px;
+        padding-right: 45px;
+        border-bottom: 1px solid #BEC2CD;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        cursor: pointer; }
+        .prospecting .left .whitebox .area p {
+          max-height: 0;
+          overflow: hidden;
+          padding-top: 0;
+          -webkit-transition: all .25s ease;
+          -moz-transition: all .25s ease;
+          -ms-transition: all .25s ease;
+          -o-transition: all .25s ease;
+          transition: all .25s ease; }
+        .prospecting .left .whitebox .area p, .prospecting .left .whitebox .area h2 {
+          -webkit-transition: all .25s ease;
+          -moz-transition: all .25s ease;
+          -ms-transition: all .25s ease;
+          -o-transition: all .25s ease;
+          transition: all .25s ease; }
+          .prospecting .left .whitebox .area p span, .prospecting .left .whitebox .area p svg, .prospecting .left .whitebox .area h2 span, .prospecting .left .whitebox .area h2 svg {
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+            -o-transition: all .25s ease;
+            transition: all .25s ease; }
+      .prospecting .left .whitebox .area:last-child {
+        border-bottom: 0; }
+      .prospecting .left .whitebox .activearea p {
+        max-height: 300px;
+        padding-top: 20px; }
+      .prospecting .left .whitebox .activearea h2 {
+        color: #000; }
+        .prospecting .left .whitebox .activearea h2 span {
+          border-color: #000; }
+        .prospecting .left .whitebox .activearea h2 svg {
+          fill: #000; }
+      .prospecting .left .whitebox h2 {
+        padding: 0;
+        font-family: GraphikSemibold;
+        color: #7B88A8;
+        font-size: 36px;
+        position: relative;
+        padding-left: 70px; }
+        .prospecting .left .whitebox h2 span {
+          position: absolute;
+          left: 0;
+          top: -5px;
+          width: 50px;
+          padding-top: 3px;
+          line-height: 47px;
+          font-size: 21px;
+          border-radius: 100%;
+          border: 1px solid #7B88A8;
+          text-align: center;
+          font-family: GraphikRegular; }
+        .prospecting .left .whitebox h2 svg {
+          position: absolute;
+          right: 0;
+          top: 7px;
+          fill: #7B88A8; }
+      .prospecting .left .whitebox p {
+        padding-left: 70px;
+        padding-right: 70px;
+        font-family: GraphikRegular;
+        font-size: 22px;
+        color: #7B88A8; }
+
+.pricing {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .pricing h1 {
+    padding: 0;
+    font-family: GraphikSemibold;
+    color: #2D3958;
+    font-size: 64px;
+    text-align: center; }
+  .pricing .boxes {
+    margin-top: 50px; }
+    .pricing .boxes .box {
+      max-width: 300px;
+      margin: auto;
+      background: #fff;
+      -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+      -moz-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+      box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.2);
+      padding: 45px 34px 34px 34px; }
+      .pricing .boxes .box h2 {
+        font-family: GraphikSemibold;
+        color: #4B26B4;
+        font-size: 26px;
+        margin-bottom: 20px;
+        text-align: center; }
+      .pricing .boxes .box h3 {
+        font-family: GraphikSemibold;
+        color: #182433;
+        font-size: 34px;
+        margin-bottom: 20px;
+        text-align: center; }
+      .pricing .boxes .box ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        min-height: 210px; }
+        .pricing .boxes .box ul li {
+          font-family: GraphikRegular;
+          color: #767D86;
+          font-size: 17px;
+          margin-bottom: 20px; }
+          .pricing .boxes .box ul li img {
+            margin-right: 5px;
+            margin-top: -2px; }
+      .pricing .boxes .box .btns a {
+        min-width: 100%;
+        text-align: center; }
